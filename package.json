@@ -1,0 +1,21 @@
+{
+  "name": "@antix_development/webplus-cli",
+  "version": "1.0.0",
+  "description": "web to desktop without the bloat.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "webplus": ".\\webplus.ps1"
+  },
+  "keywords": [
+    "web-desktop",
+    "webview2",
+    "webplus",
+    "webplus-cli",
+    "antix"
+  ],
+  "author": "Cliff Earl, Antix Development",
+  "license": "MIT"
+}
