@@ -1,7 +1,11 @@
 {
   "name": "@antix_development/webplus-cli",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "web to desktop without the bloat.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Antix-Development/webplus-cli"
+  },
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

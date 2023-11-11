@@ -46,7 +46,7 @@ switch ($command) {
 				if ((Test-Path "$basedir\templates\$template")) { # Does a template with the given name exist?
 
 					Copy-Item "$basedir\base\" -Destination "$currentdir\$project" -Recurse # Copy base files.
-					Copy-Item "$basedir\templates\$template\*.*" -Destination "$currentdir\$project" -Recurse -Force # Superimpose template files.
+					Copy-Item "$basedir\templates\$template\app\" -Destination "$currentdir\$project" -Recurse -Force # Superimpose template files.
 
 					$project = $project.substring(0,1).toupper()+$project.substring(1).tolower() # Capitalize project name.
 					Rename-Item -Path "$currentdir\$project\WebPlus.exe" -NewName "$project.exe" # Change binary name.

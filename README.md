@@ -24,6 +24,8 @@ webplus <option> file [template]
 
 ## Templates
 
+Currently there is only one template. Hopefully I can create more in the near future (10/Nov/2023).
+
 ### default
 
 The utmost minimal WebPlus application. Perfect for the person that wants to do everything themselves.
